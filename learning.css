@@ -1,0 +1,29 @@
+body {
+    background: grey;
+    margin: 10px;
+}
+
+.site {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    background-color: goldenrod;
+}
+
+.header {
+    background-color: rebeccapurple;
+    height: 100px;
+    grid-row: 1;
+}
+
+.content {
+    background-color: red;
+    grid-row: 2;
+    height: 100px;
+}
+
+.footer {
+    background-color: royalblue;
+    height: 100px;
+    grid-row:3;
+}
